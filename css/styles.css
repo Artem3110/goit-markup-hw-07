@@ -487,14 +487,14 @@ border-radius: 4px;
     margin-left: 30px;
 }*/
 
-.bottom-title {
+.managers {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 
 
-.team-text {
+.managers__name {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
@@ -504,7 +504,11 @@ border-radius: 4px;
         color: #212121;
 }
 
-.team-bottom-text {
+.managers__position {
+        font-weight: 400;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
         font-size: 16px;
         line-height: 1.18;
         text-align: center;
@@ -543,7 +547,7 @@ border-radius: 4px;
     transition-delay: 0;
 }
 
-.team-soc-icon {
+.soc__icon {
     fill: #AFB1B8;
     
     transition-property: fill;
@@ -557,8 +561,8 @@ border-radius: 4px;
     background-color: #2196F3;
 }
 
-.soc__link:hover .team-soc-icon,
-.soc__link:focus .team-soc-icon {
+.soc__link:hover .soc__icon,
+.soc__link:focus .soc__icon {
     fill: #FFFFFF;
 }
 
