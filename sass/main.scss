@@ -1,12 +1,18 @@
-@import "./vars";
+@import "./utils/vars";
+@import "./base/reset";
+@import "./components/container";
 
 
-@import "./header";
-@import "./hero";
-@import "./pec";
-@import "./work";
-@import "./footer";
-@import "./portfolio";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/pec";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/footer";
+@import "./layout/portfolio";
+@import "./layout/clients";
+@import "./layout/backdrop";
+
 
 
 
