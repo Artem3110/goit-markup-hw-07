@@ -377,7 +377,6 @@ body {
   padding-bottom: 25px;
   border: 1px solid #ECECEC;
 }
-
 .header .container {
   display: flex;
   align-items: center;
@@ -781,6 +780,9 @@ body {
   transition-timing-function: var(--timing-function);
   transition-delay: 0;
 }
+.footer-adress:hover, .footer-adress:focus {
+  color: var(--accent-color);
+}
 
 .footer-mail {
   font-style: normal;
@@ -793,6 +795,9 @@ body {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
   transition-delay: 0;
+}
+.footer-mail:hover, .footer-mail:focus {
+  color: var(--accent-color);
 }
 
 .footer-tel {
@@ -807,19 +812,7 @@ body {
   transition-timing-function: var(--timing-function);
   transition-delay: 0;
 }
-
-.footer-mail:hover,
-.footer-mail:focus {
-  color: var(--accent-color);
-}
-
-.footer-adress:hover,
-.footer-adress:focus {
-  color: var(--accent-color);
-}
-
-.footer-tel:hover,
-.footer-tel:focus {
+.footer-tel:hover, .footer-tel:focus {
   color: var(--accent-color);
 }
 
@@ -844,7 +837,6 @@ body {
   height: 44px;
   margin-right: 10px;
 }
-
 .connect-soc-item:last-child {
   margin-right: 10px;
 }
@@ -862,6 +854,14 @@ body {
   transition-timing-function: var(--timing-function);
   transition-delay: 0;
 }
+.connect-soc-link:hover, .connect-soc-link:focus {
+  background-color: #2196F3;
+}
+.connect-soc-link:hover .connect-soc-icon,
+.connect-soc-link:hover .connect-soc-icon, .connect-soc-link:focus .connect-soc-icon,
+.connect-soc-link:focus .connect-soc-icon {
+  fill: #FFFFFF;
+}
 
 .connect-soc-icon {
   fill: #FFFFFF;
@@ -869,16 +869,6 @@ body {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
   transition-delay: 0;
-}
-
-.connect-soc-link:hover,
-.connect-soc-link:focus {
-  background-color: #2196F3;
-}
-
-.connect-soc-link:hover .connect-soc-icon,
-.connect-soc-link:focus .connect-soc-icon {
-  fill: #FFFFFF;
 }
 
 .connect-soc {
@@ -1143,6 +1133,14 @@ body {
   transition-timing-function: var(--timing-function);
   transition-delay: 0;
 }
+.clients-link:hover, .clients-link:focus {
+  border: 1px solid #2196F3;
+}
+.clients-link:hover .clients-icon,
+.clients-link:hover .clients-icon, .clients-link:focus .clients-icon,
+.clients-link:focus .clients-icon {
+  fill: #2196F3;
+}
 
 .clients-icon {
   fill: #AFB1B8;
@@ -1150,14 +1148,4 @@ body {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
   transition-delay: 0;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border: 1px solid #2196F3;
-}
-
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-  fill: #2196F3;
 }/*# sourceMappingURL=main.css.map */
